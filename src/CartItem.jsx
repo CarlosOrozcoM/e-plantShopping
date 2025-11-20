@@ -19,6 +19,7 @@ const CartItem = ({ onContinueShopping }) => {
     return item.quantity * parseFloat(item.cost.substring(1));
   }
 
+
   const handleContinueShopping = (e) => {
     onContinueShopping(e)
   };
